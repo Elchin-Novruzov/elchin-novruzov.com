@@ -3,6 +3,8 @@ const Footer = dynamic(() => import('@/common/Footer'));
 import 'aos/dist/aos.css';
 import '../css/globals.css';
 import dynamic from 'next/dynamic';
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
   children,
@@ -21,11 +23,15 @@ export default function RootLayout({
         <meta name="language" content="English" />
         <meta name="author" content="Elchin Novruzov" />
         <title>Elchin Novruzov | Portfolio</title>
+
+
       </head>
       <body id="home">
         <Header />
         {children}
         <Footer />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
