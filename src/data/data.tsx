@@ -19,6 +19,7 @@ type history = {
     company?: string;
     date: string;
     name?: string;
+    description?: string;
 }
 
 export type PortfolioItem = {
@@ -282,7 +283,7 @@ export const portfolio: PortfolioItem[] = [
     //     demoTxt: 'Preview',
     //     category: "nextJs"
     // },
-     {
+    {
         img: "../images/port64.png",
         name: "Google Clone",
         github: "https://github.com/Elchin-Novruzov/Google-Clone",
@@ -363,4 +364,33 @@ export const portfolio: PortfolioItem[] = [
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
         category: "react"
     },
-]
+];
+
+export const awards: history[] = [
+    {
+        title: "Azerbaijan informatics olympiad(RFO) 3rd Place",
+        description: "One of the most biggest programming compitation beetwen schole students in Azerbaijan",
+        company: "Azerbaijan Ministry of Education",
+        date: "Nov 2022"
+    },
+    {
+        title: "Bodybuilding International championship 1st place",
+        description: "I won the first place in the bodybuilding championship in the category of U18 Mens Physique. this is most competitive category and federation in the championship.",
+        company: "INBA Global (International Natural Bodybuilding Association)",
+        date: "23 Dec 2023"
+    },
+];
+
+export const activities: history[] = [
+    {
+        title: "some hackahtons",
+        description: "Ai hackathon, 4rd place",
+        company: "Example organiser",
+        date: "11 Sep 2023 - 15 Sep 2023"
+    },
+    {
+        title: "Technofest",
+        description: "most biggest tech event in Turkey",
+        date: "Jan 2021 - Jan 2024"
+    },
+];

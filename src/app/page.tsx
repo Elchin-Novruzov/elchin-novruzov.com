@@ -9,7 +9,6 @@ const Skills = dynamic(() => import('@/components/Skills'))
 const Sosial = dynamic(() => import('@/components/Sosial'))
 import UpBtn from '@/components/UpBtn'
 import dynamic from 'next/dynamic'
-import { Analytics } from "@vercel/analytics/react"
 
 const Page: React.FC = () => {
 
