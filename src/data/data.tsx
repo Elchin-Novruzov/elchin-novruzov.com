@@ -71,7 +71,7 @@ export const skillsData: Skill[] = [
         name: "HTML 5"
     },
     {
-        tech_img: "../images/skill_1-min.png",
+        tech_img: "../images/skill_2-min.png",
         name: "CSS 3"
     },
     {
