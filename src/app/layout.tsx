@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/programming.png" type="image/x-icon">
+        <link rel="icon" href="/images/programming.png" type="image/x-icon"></link>
         <link rel="shortcut icon" href="/images/programming.png" type="image/x-icon"></link>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
         <meta name="description" content="Elchin Novruzov personal website. This is a place where you can find my projects and information about me." />
