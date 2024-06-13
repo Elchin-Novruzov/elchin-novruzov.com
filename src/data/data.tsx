@@ -237,14 +237,14 @@ export const portfolio: PortfolioItem[] = [
         name: "Chameleon AI (My Startup)",
         demo: "https://chameleonai.tech/",
         demoTxt: 'Preview',
-        category: "html"
+        category: "web"
     },
     {
         img: "../images/port65.png",
         name: "Job Hub Center",
         demo: "https://jobhubcenter.com/en",
         demoTxt: 'Preview',
-        category: "nextJs"
+        category: "web"
     },
     {
         img: "../images/port12.png",
@@ -253,16 +253,43 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://www.medresetuzzehra.com/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "html"
+        category: "web"
     },
     {
-        img: "../images/port2.png",
-        name: "Makonu (Interior Design)",
-        github: "https://github.com/Elchin-Novruzov/MakonuNitroTema-WebSite",
-        demo: "https://makonu.vercel.app/",
+        img: "../images/port70.gif",
+        name: "2D Pokemon Go with JavaScript",
+        github: "https://github.com/Elchin-Novruzov/Advanture-Story-game-2d-With-JavaScript",
+        demo: "https://elchin-novruzov.github.io/Advanture-Story-game-2d-With-JavaScript/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "html"
+        category: "js"
+    },
+    {
+        img: "../images/port68.gif",
+        name: "Multiplayer Fight game with JavaScript",
+        github: "https://github.com/Elchin-Novruzov/Fight-game-With-JS",
+        demo: "https://elchin-novruzov.github.io/Fight-game-With-JS/",
+        demoTxt: 'Preview',
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "js"
+    },
+    {
+        img: "../images/port71.gif",
+        name: "Defense Tower Game with JavaScript",
+        github: "https://github.com/Elchin-Novruzov/Tower-Game-with-JS",
+        demo: "https://elchin-novruzov.github.io/Tower-Game-with-JS/",
+        demoTxt: 'Preview',
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "js"
+    },
+    {
+        img: "../images/port29.png",
+        name: "Viona Mebel",
+        github: "https://github.com/Elchin-Novruzov/Viona-Mebel",
+        demo: "https://viona-mebel.vercel.app/",
+        demoTxt: 'Preview',
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "web"
     },
     
     {
@@ -272,8 +299,17 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://youtube-clone-app-nextjs.vercel.app/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "nextJs"
+        category: "web"
     },
+    {
+        img: "../images/port78.png",
+        name: "Car Dealer Website Web Scraping",
+        github: "https://github.com/Elchin-Novruzov/Car-Dealer-Website-Web-Scraping",
+        demo: "",
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "data"
+    },
+    
     // {
     //     img: "../images/port41.png",
     //     name: "Restaurant Menu",
@@ -290,7 +326,32 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://google-clone-app-nextjs.vercel.app/",
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
         demoTxt: 'Preview',
-        category: "nextJs"
+        category: "web"
+    },
+    {
+        img: "../images/port2.png",
+        name: "Makonu (Interior Design)",
+        github: "https://github.com/Elchin-Novruzov/MakonuNitroTema-WebSite",
+        demo: "https://makonu.vercel.app/",
+        demoTxt: 'Preview',
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "web"
+    },
+     {
+        img: "../images/port73.png",
+        name: "Netflix Exploratory Data Analysis",
+        github: "https://github.com/Elchin-Novruzov/Netflix-EDA",
+        demo: "",
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "data"
+    },
+     {
+        img: "../images/port74.png",
+        name: "YouTube Data Scraping",
+        github: "https://github.com/Elchin-Novruzov/YouTube-Data-Scraping",
+        demo: "",
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "data"
     },
     // {
     //     img: "../images/port62.png",
@@ -299,7 +360,7 @@ export const portfolio: PortfolioItem[] = [
     //     demo: "https://elvinnovruzov.com/",
     //     githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
     //     demoTxt: 'Preview',
-    //     category: "nextJs"
+    //     category: "nextJs "
     // },
     {
         img: "../images/port38.png",
@@ -308,16 +369,40 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://parkevents.vercel.app/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "react"
+        category: "web"
     },
     {
-        img: "../images/port29.png",
-        name: "Viona Mebel",
-        github: "https://github.com/Elchin-Novruzov/Viona-Mebel",
-        demo: "https://viona-mebel.vercel.app/",
+        img: "../images/port80.gif",
+        name: "Valentine Day project",
+        github: "https://github.com/Elchin-Novruzov/Valentie",
+        demo: "https://elchin-novruzov.github.io/Valentie/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "react"
+        category: "js"
+    },
+     {
+        img: "../images/port77.png",
+        name: "Bulldozers Saleprice Regression Project",
+        github: "https://github.com/Elchin-Novruzov/Bulldozers-Saleprice-Regression-Project",
+        demo: "",
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "data"
+    },
+     {
+        img: "../images/port76.png",
+        name: "Heart Disease Classification Project",
+        github: "https://github.com/Elchin-Novruzov/Heart-Disease-Classification-Project",
+        demo: "",
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "data"
+    },
+    {
+        img: "../images/port81.png",
+        name: "2048 Python",
+        github: "https://github.com/Elchin-Novruzov/2048-Python-Game",
+        demo: "",
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "python"
     },
     {
         img: "../images/port48.png",
@@ -326,7 +411,7 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://crypto-app-rtk.vercel.app/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "react"
+        category: "web"
     },
     {
         img: "../images/port50.png",
@@ -335,7 +420,7 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://imagify0.vercel.app/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "react"
+        category: "web"
     },
     {
         img: "../images/port45.png",
@@ -344,7 +429,7 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://qr-code-generator0.netlify.app/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "react"
+        category: "web"
     },
     {
         img: "../images/port36.png",
@@ -353,7 +438,7 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://react-weather-app-liard.vercel.app/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "react",
+        category: "web",
     },
     {
         img: "../images/port18.png",
@@ -362,7 +447,7 @@ export const portfolio: PortfolioItem[] = [
         demo: "https://react-food-recipe-app.vercel.app/",
         demoTxt: 'Preview',
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
-        category: "react"
+        category: "web"
     },
 ];
 

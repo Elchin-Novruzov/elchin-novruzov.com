@@ -42,10 +42,13 @@ const Portfolio: React.FC = () => {
                         <button onClick={() => { setActive(1); setSelectedCategory("web") }} className={active === 1 ? 'active' : ''}>Web</button>
                     </li>
                     <li>
-                        <button onClick={() => { setActive(2); setSelectedCategory("data") }} className={active === 2 ? 'active' : ''}>Data Science & Analisis</button>
+                        <button onClick={() => { setActive(2); setSelectedCategory("js") }} className={active === 2 ? 'active' : ''}>JavaScript</button>
                     </li>
                     <li>
-                        <button onClick={() => { setActive(3); setSelectedCategory("python") }} className={active === 3 ? 'active' : ''}>Python</button>
+                        <button onClick={() => { setActive(3); setSelectedCategory("data") }} className={active === 3 ? 'active' : ''}>Data Science & Analisis</button>
+                    </li>
+                    <li>
+                        <button onClick={() => { setActive(4); setSelectedCategory("python") }} className={active === 4 ? 'active' : ''}>Python</button>
                     </li>
                 </ul>
 
