@@ -388,6 +388,14 @@ export const portfolio: PortfolioItem[] = [
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
         category: "data"
     },
+    {
+        img: "../images/port83.png",
+        name: "Python Web Scraping to Excel",
+        github: "https://github.com/Elchin-Novruzov/Python-Web-Scraping",
+        demo: "",
+        githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
+        category: "python"
+    },
      {
         img: "../images/port76.png",
         name: "Heart Disease Classification Project",
@@ -398,7 +406,7 @@ export const portfolio: PortfolioItem[] = [
     },
     {
         img: "../images/port81.png",
-        name: "2048 Python",
+        name: "2048 Game with Python",
         github: "https://github.com/Elchin-Novruzov/2048-Python-Game",
         demo: "",
         githubTxt: <>Github <i style={{ fontSize: "22px" }} className="fa-brands fa-github"></i></>,
