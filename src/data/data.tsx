@@ -59,6 +59,72 @@ export const headerData: Header[] = [
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z"></path><path d="M7 9h10v2H7zm0 4h7v2H7z"></path></svg>
     },
     {
+        title: "Activities",
+        link: '#activities',
+        icon:                          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.441 494.441">
+                            <g id="XMLID_240_">
+                                <path id="XMLID_241_" d="M324.419,283.629h1.788c9.108,0,16.481-7.38,16.481-16.482c0-9.102-7.373-16.48-16.481-16.48H168.249
+                                    c-9.109,0-16.481,7.379-16.481,16.48c0,9.102,7.372,16.482,16.481,16.482h1.787c4.522,21.293,17.704,39.247,35.602,50.402
+                                    l14.808,160.41h53.564l14.808-160.41C306.716,322.876,319.898,304.922,324.419,283.629z"/>
+                                <path id="XMLID_242_" d="M239.518,223.812c33.382,0,57.234-21.246,69.708-52.205c21.631-53.726-17.511-159.662-63.477-159.662
+                                    c18.154,25.752,25.783,69.015-9.657,105.068c-6.438-12.023-3.51-29.639-4.121-44.832c-28.327,12.899-52.889,45.701-52.889,91.195
+                                    C179.081,196.756,206.138,223.812,239.518,223.812z"/>
+                                <path id="XMLID_243_" d="M222.458,47.498c7.886,1.175,18.043-1.706,18.269-10.316c0.208-8.241-5.457-11.782-9.399-20.617
+                                    c-3.172-7.116-3.444-10.237,0.352-16.362c-8.24-2.47-22.82,18.179-22.531,29.253C209.341,38.051,213.686,46.195,222.458,47.498z"/>
+                                <path id="XMLID_244_" d="M52.398,169.321c6.855,1.416,14.036-5.037,16.867-14.452c2.286-9.304,7.469-35.989,1.658-39.191
+                                    c-6.583-3.333-23.192,21.18-25.864,31.916C41.84,158.104,45.574,167.906,52.398,169.321z"/>
+                                <path id="XMLID_245_" d="M53.589,216.174c4.764,7.114,12.781,6.856,17.865,0.628c4.844-6.566,16.046-26.332,12.684-33.155
+                                    c-3.59-7.339-22.598,0.901-28.406,7.501C49.791,197.376,48.794,209.108,53.589,216.174z"/>
+                                <path id="XMLID_246_" d="M200.987,399.336c-6.983-3.975-22.758,7.404-26.847,13.085c-3.992,5.731-0.676,14.905,8.031,19.878
+                                    c8.676,4.941,18.526,3.252,21.424-3.107C206.396,422.77,207.941,403.344,200.987,399.336z"/>
+                                <path id="XMLID_247_" d="M60.574,260.58c-3.942,7.389-1.688,18.542,4.797,23.806c6.519,5.295,14.131,2.784,17.351-4.395
+                                    c2.494-7.807,12.457-38.274,7.919-43.392C85.232,230.467,64.083,252.501,60.574,260.58z"/>
+                                <path id="XMLID_248_" d="M96.289,349.103c8.95,3.558,16.497-1.818,17.688-10.75c0.05-9.448,1.98-45.276-4.458-49.17
+                                    c-7.87-4.974-24.962,25.332-26.219,35.489C81.209,334.023,87.356,345.595,96.289,349.103z"/>
+                                <path id="XMLID_249_" d="M147.134,407.496c11.17,0.693,17.223-7.983,15.192-18.075c-3.766-10.382-13.614-49.589-21.599-51.568
+                                    c-10.219-2.833-19.139,35.715-16.738,47.367C124.954,396.198,136.028,406.867,147.134,407.496z"/>
+                                <path id="XMLID_250_" d="M39.281,215.692c5.134-7.146,6.101-18.494,2.287-26.508c-4.057-7.646-17.819-25.141-24.191-18.252
+                                    c-6.89,7.356-1.129,36.488,4.039,44.132C26.163,223.064,34.177,222.774,39.281,215.692z"/>
+                                <path id="XMLID_251_" d="M166.98,459.016c3.168-0.387,6.211-1.948,8.352-4.636c4.377-5.472,3.51-13.406-1.964-17.768
+                                    c0,0-3.731-3.026-10.268-8.24c-23.853-19.178-14.164-10.108-41.492-37.839c-15.902-14.316-36.005-48.623-46-65.104
+                                    c-29.519-59.214-28.312-145.258-28.312-145.258s-8.771,78.657,16.885,150.682c8.191,16.489,26.847,55.255,42.651,72.267
+                                    c26.912,32.31,18.332,22.734,49.541,52.205c-5.859-0.999-11.059-0.059-13.584,3.581c-4.057,5.648-6.005,26.572,5.31,33.042
+                                    c11.364,6.47,28.684-5.712,31.466-12.135C182.479,473.476,176.538,464.504,166.98,459.016z"/>
+                                <path id="XMLID_252_" d="M42.87,290.067c2.898-8.306,0.676-19.46-5.248-26.057c-6.308-5.73-30.532-30.388-34.859-22.438
+                                    c-5.314,9.255,15.287,47.448,22.756,52.888C32.313,300.883,39.956,298.371,42.87,290.067z"/>
+                                <path id="XMLID_253_" d="M70.456,364.827c0.339-10.301-5.891-22.082-14.613-27.539c-8.917-4.28-43.683-24.786-46.033-14.485
+                                    c-3.202,12.249,32.561,49.284,42.975,52.824C62.587,380.568,70.135,375.161,70.456,364.827z"/>
+                                <path id="XMLID_254_" d="M100.7,406.354c-11.301-1.513-56.398-13.086-55.464-0.966c0.467,14.904,53.435,44.245,66.488,44.26
+                                    c12.778,1.996,18.831-6.678,15.192-18.059C123.248,420.13,112.177,409.461,100.7,406.354z"/>
+                                <path id="XMLID_255_" d="M387.61,403.118c15.773-16.989,34.442-55.77,42.652-72.267c25.637-72.025,16.882-150.682,16.882-150.682
+                                    s1.191,86.044-28.311,145.258c-9.994,16.481-30.386,51.07-46.016,65.104c-28.133,28.552-13.891,15.146-51.729,46.08
+                                    c-5.472,4.362-6.374,12.297-1.996,17.768c2.141,2.689,5.183,4.249,8.371,4.636c-9.578,5.496-15.502,14.468-12.587,20.794
+                                    c2.799,6.423,20.085,18.605,31.448,12.135c11.332-6.469,9.4-27.394,5.327-33.042c-2.525-3.64-7.74-4.58-13.6-3.581
+                                    c0.016-0.017,26.878-25.431,26.895-25.439C367.232,427.598,385.533,405.606,387.61,403.118z"/>
+                                <path id="XMLID_256_" d="M442.025,169.321c6.825-1.416,10.561-11.217,7.34-21.727c-2.672-10.736-19.281-35.249-25.848-31.916
+                                    c-5.825,3.202-0.645,29.887,1.643,39.191C428.006,164.285,435.17,170.738,442.025,169.321z"/>
+                                <path id="XMLID_257_" d="M440.851,216.174c4.781-7.066,3.782-18.799-2.14-25.027c-5.811-6.599-24.819-14.84-28.427-7.501
+                                    c-3.346,6.823,7.857,26.589,12.702,33.155C428.087,223.031,436.087,223.289,440.851,216.174z"/>
+                                <path id="XMLID_258_" d="M320.283,412.42c-4.055-5.681-19.861-17.06-26.83-13.085c-6.969,4.009-5.423,23.435-2.622,29.855
+                                    c2.897,6.359,12.745,8.048,21.439,3.107C320.96,427.325,324.275,418.151,320.283,412.42z"/>
+                                <path id="XMLID_259_" d="M429.054,284.386c6.504-5.265,8.756-16.417,4.795-23.806c-3.492-8.079-24.641-30.113-30.049-23.98
+                                    c-4.555,5.118,5.425,35.585,7.904,43.392C414.921,287.17,422.551,289.681,429.054,284.386z"/>
+                                <path id="XMLID_260_" d="M411.14,324.671c-1.27-10.157-18.365-40.463-26.218-35.489c-6.438,3.894-4.509,39.723-4.476,49.17
+                                    C383.554,361.665,416.161,346.946,411.14,324.671z"/>
+                                <path id="XMLID_261_" d="M370.452,385.219c2.398-11.652-6.521-50.2-16.754-47.367c-7.952,1.979-17.837,41.186-21.602,51.568
+                                    C326.689,416.308,368.15,411.311,370.452,385.219z"/>
+                                <path id="XMLID_262_" d="M473.025,215.063c5.15-7.644,10.93-36.776,4.023-44.132c-6.373-6.889-20.119,10.606-24.175,18.252
+                                    c-3.829,8.015-2.864,19.362,2.286,26.508C460.263,222.774,468.277,223.064,473.025,215.063z"/>
+                                <path id="XMLID_263_" d="M451.57,290.067c2.914,8.304,10.543,10.816,17.335,4.394c7.484-5.44,28.086-43.633,22.774-52.888
+                                    c-4.33-7.951-28.552,16.707-34.861,22.438C450.878,270.607,448.658,281.761,451.57,290.067z"/>
+                                <path id="XMLID_264_" d="M438.581,337.289c-21.086,13.19-18.492,49.211,3.076,38.339c10.412-3.54,46.175-40.576,42.972-52.824
+                                    C482.28,312.503,447.514,333.009,438.581,337.289z"/>
+                                <path id="XMLID_265_" d="M393.74,406.354c-11.49,3.107-22.565,13.776-26.234,25.236c-3.637,11.38,2.431,20.055,15.211,18.059
+                                    c13.053-0.015,66.006-29.356,66.488-44.26C450.138,393.268,405.04,404.841,393.74,406.354z"/>
+                            </g>
+                        </svg>
+    },
+    {
         title: "Contact",
         link: "#contact",
         icon: <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M384 48c8.8 0 16 7.2 16 16V448c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H384zM96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM240 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16H336c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H208zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z" /></svg>
@@ -459,31 +525,142 @@ export const portfolio: PortfolioItem[] = [
     },
 ];
 
-export const awards: history[] = [
+export const awardsHistory: history[] = [
     {
-        title: "Azerbaijan informatics olympiad(RFO) 3rd Place",
-        description: "One of the most biggest programming compitation beetwen schole students in Azerbaijan",
+        title: "Advanced Web Development Bootcamp Certificate",
+        description: "",
+        company: "Coders Academy",
+        date: "Nov 2023"
+    },
+    {
+        title: "DigiEduHack Mentor Certificate",
+        description: "",
+        company: "DigiEduHack & Hack4World Baku",
+        date: "Nov 2022"
+    },
+    {
+        title: "Azerbaijan Informatics olympiad(RFO) 3rd Place",
+        description: "",
         company: "Azerbaijan Ministry of Education",
         date: "Nov 2022"
     },
     {
-        title: "Bodybuilding International championship 1st place",
-        description: "I won the first place in the bodybuilding championship in the category of U18 Mens Physique. this is most competitive category and federation in the championship.",
+        title: "Azerbaijan Mathematics olympiad(RFO) 3rd Place",
+        description: "",
+        company: "Azerbaijan Ministry of Education",
+        date: "Nov 2022"
+    },
+    {
+        title: "National logic olympia 3rd Place",
+        description: "",
+        company: "Prestij Education Center",
+        date: "Nov 2022"
+    },
+    {
+        title: "Pasha Bank Hackathon 1st Place",
+        description: "",
+        company: "PASHA Holding LLC",
+        date: "Nov 2022"
+    },
+    {
+        title: "Missiya:2030 Hackathon 1st Place",
+        description: "",
+        company: "Ministry of Youth and Sport of Azerbaijan Republic",
+        date: "Nov 2022"
+    },
+    {
+        title: "4th ABB Hackathon 1st Place",
+        description: "",
+        company: "ABB",
+        date: "Nov 2022"
+    },
+    {
+        title: "R.U.Hacking Hackathon Sponsor Prize winner",
+        description: "",
+        company: "R.U.Hacking?",
+        date: "Jun 2021"
+    },
+    {
+        title: "Bodybuilding International championship 1st place (Hungary)",
+        description: "",
         company: "INBA Global (International Natural Bodybuilding Association)",
         date: "23 Dec 2023"
     },
+    {
+        title: "Bodybuilding Europa championship 1st place (Georgia)",
+        description: "",
+        company: "INBA Global & PNBA",
+        date: "23 Dec 2023"
+    },
+    {
+        title: "Bodybuilding Azerbaijan championship 1st place",
+        description: "",
+        company: "INBA Global",
+        date: "23 Dec 2023"
+    },
+    {
+        title: "Bodybuilding International championship 2rd place (AZE)",
+        description: "",
+        company: "INBA Global",
+        date: "23 Dec 2023"
+    },
+    {
+        title: "Bodybuilding Eurasia championship 4th place (Slovakia)",
+        description: "",
+        company: "INBA Global & PNBA",
+        date: "23 Dec 2023"
+    },
+    {
+        title: "Bodybuilding Azerbaijan championship 2rd place",
+        description: "",
+        company: "INBA Global",
+        date: "23 Dec 2023"
+    },
+    {
+        title: "Bodybuilding Caspian Cup 4th place",
+        description: "",
+        company: "INBA Global & PNBA",
+        date: "23 Dec 2023"
+    }
 ];
 
-export const activities: history[] = [
+export const activitiesHistory: history[] = [
     {
-        title: "some hackahtons",
-        description: "Ai hackathon, 4rd place",
+        title: "ICPC Programming Olympiad",
+        description: "I represented AzTU in Eurasia semi-finalist, In Kazakhstan, Astana ",
+        company: "Example organiser",
+        date: "12 Dec 2023"
+    },
+    {
+        title: "CruzHacks 2023 Hackathon",
+        description: "Participated, In USA, University of California, Santa Cruz",
         company: "Example organiser",
         date: "11 Sep 2023 - 15 Sep 2023"
     },
     {
-        title: "Technofest",
-        description: "most biggest tech event in Turkey",
-        date: "Jan 2021 - Jan 2024"
+        title: "Teknofest",
+        description: "Participated, Most biggest tech competition in Turkey",
+        date: "27 Sep 2023 - 1 Oct 2023"
     },
+    {
+        title: "Young European Ambassador",
+        description: "Part-time role with the European Commission, based in Prague, Czechia, and conducted remotely",
+        date: "Oct 2022 - Mar 2024"
+    },
+    {
+        title: "Student Volunteer at AzTU",
+        description: "As a volunteer at THIK, I contributed to organizing university events, representing Azerbaijan Technical University",
+        date: "Sep 2022 - Jan 2024"
+    },
+    {
+        title: "Volunteer Staff at Formula 1",
+        description: "As a volunteer staff member at the F1 event in Baku, contributing to the success of this prestigious international motorsport event",
+        date: "Sep 2022 - Jan 2024"
+    },
+    {
+        title: "Honor from INBA & PNBA",
+        description: "My outstanding achievements in competitions, including over 7 wins. Proudly named Sportsman of the Year in 2023",
+        date: "Sep 2022 - Jan 2024"
+    },
+    
 ];

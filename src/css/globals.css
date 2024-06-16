@@ -597,6 +597,20 @@ body.active #mobile-menu ul li a svg {
   margin-right: 10px;
   fill: var(--color-3);
 }
+#experience .row .left .title1 {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#experience .row .left .title1 svg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  
+}
 #experience .row .left .item {
   border-bottom: 1px solid rgba(0, 0, 0, 0.117);
   display: flex;

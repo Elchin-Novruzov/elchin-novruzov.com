@@ -1,6 +1,7 @@
 'use client'
 
 const About = dynamic(() => import('@/components/About'))
+const Activities = dynamic(() => import('@/components/Activities'))
 const Contact = dynamic(() => import('@/components/Contact'))
 const Experience = dynamic(() => import('@/components/Experience'))
 const Hero = dynamic(() => import('@/components/Hero'))
@@ -15,6 +16,7 @@ const Page: React.FC = () => {
   return (
     <main>
       <UpBtn />
+      
       <div className='container'>
         <Hero />
         <Sosial />
@@ -22,7 +24,13 @@ const Page: React.FC = () => {
         <Skills />
         <Experience />
       </div>
+
       <Portfolio />
+
+      <div className='container'>
+        <Activities />
+      </div>
+
       <Contact />
     </main>
   )
