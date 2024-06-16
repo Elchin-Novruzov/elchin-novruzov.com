@@ -536,7 +536,7 @@ export const awardsHistory: history[] = [
         title: "DigiEduHack Mentor Certificate",
         description: "",
         company: "DigiEduHack & Hack4World Baku",
-        date: "Nov 2022"
+        date: "Dec 2023"
     },
     {
         title: "Azerbaijan Informatics olympiad(RFO) 3rd Place",
@@ -548,37 +548,37 @@ export const awardsHistory: history[] = [
         title: "Azerbaijan Mathematics olympiad(RFO) 3rd Place",
         description: "",
         company: "Azerbaijan Ministry of Education",
-        date: "Nov 2022"
+        date: "Oct 2021"
     },
     {
         title: "National logic olympia 3rd Place",
         description: "",
         company: "Prestij Education Center",
-        date: "Nov 2022"
+        date: "12 May 2023"
     },
     {
         title: "Pasha Bank Hackathon 1st Place",
         description: "",
         company: "PASHA Holding LLC",
-        date: "Nov 2022"
+        date: "13 Feb 2023"
     },
     {
         title: "Missiya:2030 Hackathon 1st Place",
         description: "",
         company: "Ministry of Youth and Sport of Azerbaijan Republic",
-        date: "Nov 2022"
+        date: "31 Jul 2023"
     },
     {
         title: "4th ABB Hackathon 1st Place",
         description: "",
         company: "ABB",
-        date: "Nov 2022"
+        date: "31 May 2023"
     },
     {
         title: "R.U.Hacking Hackathon Sponsor Prize winner",
         description: "",
         company: "R.U.Hacking?",
-        date: "Jun 2021"
+        date: "21 Jun 2021"
     },
     {
         title: "Bodybuilding International championship 1st place (Hungary)",
@@ -590,37 +590,37 @@ export const awardsHistory: history[] = [
         title: "Bodybuilding Europa championship 1st place (Georgia)",
         description: "",
         company: "INBA Global & PNBA",
-        date: "23 Dec 2023"
+        date: "10 Jun 2024"
     },
     {
         title: "Bodybuilding Azerbaijan championship 1st place",
         description: "",
         company: "INBA Global",
-        date: "23 Dec 2023"
+        date: "22 Jun 2022"
     },
     {
         title: "Bodybuilding International championship 2rd place (AZE)",
         description: "",
         company: "INBA Global",
-        date: "23 Dec 2023"
+        date: "17 Oct 2022"
     },
     {
         title: "Bodybuilding Eurasia championship 4th place (Slovakia)",
         description: "",
         company: "INBA Global & PNBA",
-        date: "23 Dec 2023"
+        date: "25 Jun 2023"
     },
     {
         title: "Bodybuilding Azerbaijan championship 2rd place",
         description: "",
         company: "INBA Global",
-        date: "23 Dec 2023"
+        date: "19 Aug 2021"
     },
     {
-        title: "Bodybuilding Caspian Cup 4th place",
+        title: "Bodybuilding Caspian Cup 4th place (AZE)",
         description: "",
         company: "INBA Global & PNBA",
-        date: "23 Dec 2023"
+        date: "03 Nov 2021"
     }
 ];
 
