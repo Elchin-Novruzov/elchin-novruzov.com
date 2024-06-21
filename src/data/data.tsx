@@ -279,7 +279,7 @@ export const jobHistory: history[] = [
     },
     {
         title: "Hardware Engineer Internship",
-        company: "Oct 2021 - Jan 2022 | Part-time | On-site",
+        company: "bp (British Petroleum) | Part-time | On-site",
         date: "Jul 2022 - Dec 2022"
     }
 ];
