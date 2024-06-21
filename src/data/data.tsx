@@ -260,7 +260,7 @@ export const jobHistory: history[] = [
     {
         title: "Web Developer",
         company: "InvoUp | Full-time | Remote",
-        date: "Nov 2022 - Present"
+        date: "Jan 2023 - Present"
     },
     {
         title: "Web Developer Mentor",
@@ -268,14 +268,19 @@ export const jobHistory: history[] = [
         date: "Jul 2023 - Dec 2023"
     },
     {
-        title: "Web Developer Internship",
+        title: "Software Engineer Internship",
         company: "Innovation and Digital Development Agency | Full-time | On-site",
-        date: "May 2022 - Oct 2022"
+        date: "Jul 2022 - Dec 2022"
     },
     {
         title: "Web Developer Internship",
         company: "BIRainy | Part-time | Hybrid",
-        date: "Oct 2021 - Mar 2022"
+        date: "Feb 2022 - Jun 2022"
+    },
+    {
+        title: "Hardware Engineer Internship",
+        company: "Oct 2021 - Jan 2022 | Part-time | On-site",
+        date: "Jul 2022 - Dec 2022"
     }
 ];
 
