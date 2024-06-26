@@ -260,7 +260,7 @@ export const jobHistory: history[] = [
     {
         title: "Web Developer",
         company: "InvoUp | Full-time | Remote",
-        date: "Jan 2023 - Present"
+        date: "Apr 2023 - Present"
     },
     {
         title: "Web Developer Mentor",
@@ -269,18 +269,18 @@ export const jobHistory: history[] = [
     },
     {
         title: "Software Engineer Internship",
-        company: "Innovation and Digital Development Agency | Full-time | On-site",
-        date: "Jul 2022 - Dec 2022"
+        company: "EY | Full-time | Remote",
+        date: "Jan 2023 - Apr 2023"
     },
     {
         title: "Web Developer Internship",
-        company: "BIRainy | Part-time | Hybrid",
-        date: "Feb 2022 - Jun 2022"
+        company: "ABB | Part-time | Hybrid",
+        date: "Sep 2022 - Dec 2022"
     },
     {
-        title: "Hardware Engineer Internship",
+        title: "IT Specialist",
         company: "bp (British Petroleum) | Part-time | On-site",
-        date: "Jul 2022 - Dec 2022"
+        date: "Sep 2021 - Aug 2022"
     }
 ];
 
@@ -292,7 +292,7 @@ export const educationHistory: history[] = [
     },
     {
         title: "Azerbaijan Technical University",
-        name: "Bachelor of Engineering - Electric and Electronic Engineering",
+        name: "Bachelor of Engineering - Computer Engineering",
         date: "Jan 2021 - Jan 2024"
     },
     {
@@ -538,10 +538,16 @@ export const awardsHistory: history[] = [
         date: "Nov 2023"
     },
     {
-        title: "DigiEduHack Mentor Certificate",
+        title: "Hackathon Mentor Certificate",
         description: "",
         company: "DigiEduHack & Hack4World Baku",
         date: "Dec 2023"
+    },
+    {
+        title: "Web Marketing Certificate",
+        description: "",
+        company: "edX",
+        date: "Feb 2024"
     },
     {
         title: "Azerbaijan Informatics olympiad(RFO) 3rd Place",
