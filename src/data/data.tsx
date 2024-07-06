@@ -297,7 +297,7 @@ export const educationHistory: history[] = [
     },
     {
         title: "Istanbul Gedik University",
-        name: "Technical Dgree - Software engineering",
+        name: "Technical Degree - Software engineering",
         date: "Sep 2021 - Jun 2022"
     }
 ];
