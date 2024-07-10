@@ -274,7 +274,7 @@ export const jobHistory: history[] = [
     },
     {
         title: "IT Specialist",
-        company: "bp (British Petroleum) | Part-time | On-site",
+        company: "bp (British Petroleum) | Full-time | On-site",
         date: "Sep 2021 - Aug 2022"
     }
 ];
