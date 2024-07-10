@@ -269,7 +269,7 @@ export const jobHistory: history[] = [
     },
     {
         title: "Web Developer Internship",
-        company: "ABB | Part-time | Hybrid",
+        company: "ABB | Full-time | Hybrid",
         date: "Sep 2022 - Dec 2022"
     },
     {
