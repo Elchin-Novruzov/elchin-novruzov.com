@@ -263,11 +263,6 @@ export const jobHistory: history[] = [
         date: "Apr 2023 - Present"
     },
     {
-        title: "Web Developer Mentor",
-        company: "DigiEduHack | Part-time | Hybrid",
-        date: "Jul 2023 - Dec 2023"
-    },
-    {
         title: "Software Engineer Internship",
         company: "EY | Full-time | Remote",
         date: "Jan 2023 - Apr 2023"
@@ -641,6 +636,12 @@ export const activitiesHistory: history[] = [
         description: "I represented AzTU in Eurasia semi-finalist, In Kazakhstan, Astana ",
         company: "Example organiser",
         date: "12 Dec 2023"
+    },
+    {
+        title: "Web Development Mentor",
+        description: "I was a part-time mentor at the DigiEduHack hackathon, helping students to develop their projects",
+        company: "Example organiser",
+        date: "Jul 2023 - Dec 2023"
     },
     {
         title: "CruzHacks 2023 Hackathon",
