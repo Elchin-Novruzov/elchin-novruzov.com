@@ -263,6 +263,11 @@ export const jobHistory: history[] = [
         date: "Apr 2023 - Present"
     },
     {
+        title: "Hackathon Mentor (Web Development)",
+        company: "DigiEduHack & Hack4World Baku | Part-time | Hybrid",
+        date: "Jun 2023 - Dec 2023"
+    },
+    {
         title: "Software Engineer Internship",
         company: "EY | Full-time | Remote",
         date: "Jan 2023 - Apr 2023"
@@ -531,12 +536,6 @@ export const awardsHistory: history[] = [
         description: "",
         company: "Coders Academy",
         date: "Nov 2023"
-    },
-    {
-        title: "Hackathon Mentor Certificate",
-        description: "",
-        company: "DigiEduHack & Hack4World Baku",
-        date: "Dec 2023"
     },
     {
         title: "Web Marketing Certificate",
