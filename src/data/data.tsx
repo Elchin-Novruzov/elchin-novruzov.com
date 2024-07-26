@@ -223,16 +223,16 @@ export const skillsData: Skill[] = [
         name: "Rest API "
     },
     {
-        tech_img: "../images/skill_13-min.png",
-        name: "Git"
-    },
-    {
         tech_img: "../images/skill_16-min.png",
         name: "Npm"
     },
     {
         tech_img: "../images/skill_17-min.png",
         name: "Yarn"
+    },
+    {
+        tech_img: "../images/skill_13-min.png",
+        name: "Git"
     },
     {
         tech_img: "../images/skill_15-min.png",
@@ -260,7 +260,7 @@ export const jobHistory: history[] = [
     {
         title: "Web Developer",
         company: "InvoUp | Full-time | Remote",
-        date: "Apr 2023 - Present"
+        date: "Jan 2023 - Present"
     },
     {
         title: "Hackathon Mentor (Web Development)",
@@ -270,17 +270,17 @@ export const jobHistory: history[] = [
     {
         title: "Software Engineer Internship",
         company: "EY | Full-time | Remote",
-        date: "Jan 2023 - Apr 2023"
+        date: "Jul 2022 - Dec 2022"
     },
     {
         title: "Web Developer Internship",
-        company: "ABB | Full-time | Hybrid",
-        date: "Sep 2022 - Dec 2022"
+        company: "ABB | Part-time | Hybrid",
+        date: "Jan 2022 - Jun 2022"
     },
     {
-        title: "IT Specialist",
-        company: "bp (British Petroleum) | Full-time | On-site",
-        date: "Sep 2021 - Aug 2022"
+        title: "Hardware Engineer Internship",
+        company: "bp (British Petroleum) | Part-time | On-site",
+        date: "Oct 2021 - Jan 2022"
     }
 ];
 
