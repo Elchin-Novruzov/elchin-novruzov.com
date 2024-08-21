@@ -43,7 +43,7 @@ const About: React.FC = () => {
                             <CountUp start={0} end={1} delay={0}>
                                 {({ countUpRef }) => (
                                     <>
-                                        <span className='count' ref={countUpRef} /> {`${''}`} <br />
+                                        <span className='count' ref={countUpRef} /> {`${'+'}`} <br />
                                         <span> Experience </span>
                                     </>
                                 )}
