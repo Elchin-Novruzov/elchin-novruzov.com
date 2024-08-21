@@ -258,8 +258,8 @@ export const skillsData: Skill[] = [
 
 export const jobHistory: history[] = [
     {
-        title: "Web Developer",
-        company: "InvoUp | Full-time | Remote",
+        title: "Volunteer",
+        company: "Greenhouse | Part-time | On-site",
         date: "Jan 2023 - Present"
     },
     {
@@ -268,18 +268,13 @@ export const jobHistory: history[] = [
         date: "Jun 2023 - Dec 2023"
     },
     {
-        title: "Software Engineer Internship",
-        company: "EY | Full-time | Remote",
-        date: "Jul 2022 - Dec 2022"
-    },
-    {
-        title: "Web Developer Internship",
-        company: "ABB | Part-time | Hybrid",
+        title: "Sofware Developer Internship",
+        company: "ABB | Full-time | Hybrid",
         date: "Jan 2022 - Jun 2022"
     },
     {
         title: "Hardware Engineer Internship",
-        company: "bp (British Petroleum) | Part-time | On-site",
+        company: "bp (British Petroleum) | Full-time | On-site",
         date: "Oct 2021 - Jan 2022"
     }
 ];
@@ -642,12 +637,12 @@ export const activitiesHistory: history[] = [
         company: "Example organiser",
         date: "Jul 2023 - Dec 2023"
     },
-    {
-        title: "CruzHacks 2023 Hackathon",
-        description: "Participated, In USA, University of California, Santa Cruz",
-        company: "Example organiser",
-        date: "11 Sep 2023 - 15 Sep 2023"
-    },
+    // {
+    //     title: "CruzHacks 2023 Hackathon",
+    //     description: "Participated, In USA, University of California, Santa Cruz",
+    //     company: "Example organiser",
+    //     date: "11 Sep 2023 - 15 Sep 2023"
+    // },
     {
         title: "Teknofest",
         description: "Participated, Most biggest tech competition in Turkey",
