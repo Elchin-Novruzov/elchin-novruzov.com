@@ -40,7 +40,7 @@ const About: React.FC = () => {
                             </CountUp>
                         </li>
                         <li>
-                            <CountUp start={0} end={3} delay={0}>
+                            <CountUp start={0} end={1} delay={0}>
                                 {({ countUpRef }) => (
                                     <>
                                         <span className='count' ref={countUpRef} /> {`${''}`} <br />
