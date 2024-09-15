@@ -259,7 +259,7 @@ export const skillsData: Skill[] = [
 export const jobHistory: history[] = [
     {
         title: "Volunteer",
-        company: "Greenhouse | Part-time | On-site",
+        company: "Greenpeace | Part-time | On-site",
         date: "Jan 2023 - Present"
     },
     {
