@@ -258,13 +258,18 @@ export const skillsData: Skill[] = [
 
 export const jobHistory: history[] = [
     {
-        title: "Volunteer",
-        company: "Greenpeace | Part-time | On-site",
-        date: "Jan 2023 - Present"
+        title: "Blockchain & Web Developer",
+        company: "InvoUp | Full-time | Remote",
+        date: "Dec 2024 - Present"
     },
     {
-        title: "Hackathon Mentor (Web Development)",
-        company: "DigiEduHack & Hack4World Baku | Part-time | Hybrid",
+        title: "IT Researcher",
+        company: "European Solidarity Corps | Full-time | On-site",
+        date: "Nov 2024 - Dec 2024"
+    },
+    {
+        title: "IT Mentor",
+        company: "DigiEduHack & Hack4World Baku | Full-time | Hybrid",
         date: "Jun 2023 - Dec 2023"
     },
     {
@@ -273,7 +278,7 @@ export const jobHistory: history[] = [
         date: "Jan 2022 - Jun 2022"
     },
     {
-        title: "Hardware Engineer Internship",
+        title: "Web Development Internship",
         company: "bp (British Petroleum) | Full-time | On-site",
         date: "Oct 2021 - Jan 2022"
     }
