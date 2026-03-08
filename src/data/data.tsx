@@ -561,12 +561,7 @@ export const awardsHistory: history[] = [
         company: "Prestij Education Center",
         date: "12 May 2023"
     },
-    {
-        title: "Pasha Bank Hackathon 1st Place",
-        description: "",
-        company: "PASHA Holding LLC",
-        date: "13 Feb 2023"
-    },
+    
     {
         title: "Missiya:2030 Hackathon 1st Place",
         description: "",
