@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
             <div className="row">
                 <div data-aos="fade-left" className='left'>
                     <h1>Hi, I'm Elchin Novruzov</h1>
-                    <h3>Web Developer</h3>
+                    <h3>Technical Lead · Founding Engineer</h3>
                     <p>
                         Press F13 if you'd like to discover more about me.
                     </p>

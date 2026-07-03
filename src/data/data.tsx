@@ -17,7 +17,7 @@ export type AboutProps = {
 type history = {
     title: string;
     company?: string;
-    date: string;
+    date?: string;
     name?: string;
     description?: string;
 }
@@ -133,82 +133,67 @@ export const headerData: Header[] = [
 ];
 
 export const skillsData: Skill[] = [
+    // Frontend
     {
         tech_img: "../images/skill_1-min.png",
-        name: "HTML 5"
+        name: "HTML5"
     },
     {
         tech_img: "../images/skill_2-min.png",
-        name: "CSS 3"
+        name: "CSS3"
+    },
+    {
+        tech_img: "../images/skill_3-min.png",
+        name: "SCSS"
     },
     {
         tech_img: "../images/skill_4-min.png",
-        name: "JavaScript ES6+"
+        name: "JavaScript"
     },
     {
         tech_img: "../images/skill_10-min.png",
         name: "TypeScript"
     },
     {
-        tech_img: "../images/skill_22-min.png",
-        name: "Python"
+        tech_img: "../images/skill_8-min.png",
+        name: "React.js"
     },
     {
-        tech_img: "../images/skill_23-min.png",
-        name: "R Programming"
-    },
-    {
-        tech_img: "../images/skill_24-min.png",
-        name: "jQuery"
-    },
-    {
-        tech_img: "../images/skill_3-min.png",
-        name: "SASS"
-    },
-    {
-        tech_img: "../images/skill_20-min.png",
-        name: "LESS"
-    },
-    
-    {
-        tech_img: "../images/skill_5-min.png",
-        name: "Bootstrap 5"
-    },
-    {
-        tech_img: "../images/skill_6-min.png",
-        name: "Material UI"
+        tech_img: "https://skillicons.dev/icons?i=nextjs",
+        name: "Next.js"
     },
     {
         tech_img: "../images/skill_7-min.png",
         name: "Tailwind CSS"
     },
     {
-        tech_img: "../images/skill_8-min.png",
-        name: "React JS"
+        tech_img: "../images/skill_5-min.png",
+        name: "Bootstrap"
     },
     {
-        tech_img: "../images/skill_21-min.png",
-        name: "Vue JS"
+        tech_img: "../images/skill_24-min.png",
+        name: "jQuery"
     },
-    {
-        tech_img: "../images/skill_25-min.png",
-        name: "Angular.js"
-    }, 
+    // Backend
     {
         tech_img: "../images/skill_26-min.png",
-        name: "Node JS"
+        name: "Node.js"
     },
     {
         tech_img: "../images/skill_27-min.png",
-        name: "Express JS"
+        name: "Express.js"
     },
     {
-        tech_img: "../images/skill_28-min.png",
-        name: "Jest"
+        tech_img: "../images/skill_22-min.png",
+        name: "Python"
     },
     {
-        tech_img: "../images/skill_31-min.png",
-        name: "Firebase"
+        tech_img: "../images/skill_12-min.png",
+        name: "REST APIs"
+    },
+    {
+        tech_img: "https://skillicons.dev/icons?i=postgres",
+        name: "PostgreSQL"
     },
     {
         tech_img: "../images/skill_32-min.png",
@@ -218,9 +203,26 @@ export const skillsData: Skill[] = [
         tech_img: "../images/skill_33-min.png",
         name: "XML"
     },
+    // Tools & Other
     {
-        tech_img: "../images/skill_12-min.png",
-        name: "Rest API "
+        tech_img: "../images/skill_13-min.png",
+        name: "Git"
+    },
+    {
+        tech_img: "../images/skill_15-min.png",
+        name: "GitHub"
+    },
+    {
+        tech_img: "https://skillicons.dev/icons?i=azure",
+        name: "Azure"
+    },
+    {
+        tech_img: "https://skillicons.dev/icons?i=linux",
+        name: "Linux"
+    },
+    {
+        tech_img: "../images/skill_18-min.png",
+        name: "Figma"
     },
     {
         tech_img: "../images/skill_16-min.png",
@@ -231,26 +233,6 @@ export const skillsData: Skill[] = [
         name: "Yarn"
     },
     {
-        tech_img: "../images/skill_13-min.png",
-        name: "Git"
-    },
-    {
-        tech_img: "../images/skill_15-min.png",
-        name: "Github"
-    },
-    {
-        tech_img: "../images/skill_18-min.png",
-        name: "Figma"
-    },
-    {
-        tech_img: "../images/skill_19-min.png",
-        name: "Adobe XD"
-    },
-    {
-        tech_img: "../images/skill_29-min.png",
-        name: "AutoCAD"
-    },
-    {
         tech_img: "../images/skill_30-min.png",
         name: "Excel"
     },
@@ -258,47 +240,56 @@ export const skillsData: Skill[] = [
 
 export const jobHistory: history[] = [
     {
-        title: "Blockchain & Web Developer",
-        company: "InvoUp | Full-time | Remote",
-        date: "Dec 2024 - Present"
+        title: "Technical Lead",
+        company: "iREE Group | Full-time | Remote",
+        date: "Oct 2025 - Present"
+    },
+    {
+        title: "Senior Software Engineer",
+        company: "InvoUp | Hybrid",
+        date: "Jan 2025 - Oct 2025"
+    },
+    {
+        title: "Software Engineer II",
+        company: "InvoUp | Hybrid",
+        date: "Jun 2023 - Jan 2025"
+    },
+    {
+        title: "Software Engineer",
+        company: "InvoUp | Remote",
+        date: "Mar 2022 - Jun 2023"
     },
     {
         title: "IT Researcher",
-        company: "European Solidarity Corps | Full-time | On-site",
+        company: "European Solidarity Corps | Part-time, On-site",
         date: "Nov 2024 - Dec 2024"
     },
     {
-        title: "IT Mentor",
-        company: "DigiEduHack & Hack4World Baku | Full-time | Hybrid",
+        title: "Mentor",
+        company: "DigiEduHack | Contract, Remote",
         date: "Jun 2023 - Dec 2023"
     },
     {
-        title: "Sofware Developer Internship",
-        company: "ABB | Full-time | Hybrid",
-        date: "Jan 2022 - Jun 2022"
-    },
-    {
-        title: "Web Development Internship",
-        company: "bp (British Petroleum) | Full-time | On-site",
-        date: "Oct 2021 - Jan 2022"
+        title: "Software Engineer (Intern)",
+        company: "ABB | Internship, Hybrid, Baku",
+        date: "Oct 2021 - Mar 2022"
     }
 ];
 
 export const educationHistory: history[] = [
     {
+        title: "Paris American International University",
+        name: "BSc - Information Technology"
+    },
+    {
         title: "Czech University of Life Sciences Prague",
-        name: "Bachelor of Science - Data Science",
+        name: "BSc - Data Science",
         date: "Sep 2023 - Oct 2026"
     },
     {
         title: "Azerbaijan Technical University",
-        name: "Bachelor of Engineering - Computer Engineering",
+        name: "BEng - Computer Engineering (drop-out)",
         date: "Jan 2021 - Jan 2024"
-    },
-    {
-        title: "Istanbul Gedik University",
-        name: "Technical(Vocational) Degree - Software engineering",
-        date: "Sep 2021 - Jun 2022"
     }
 ];
 
@@ -532,16 +523,36 @@ export const portfolio: PortfolioItem[] = [
 
 export const awardsHistory: history[] = [
     {
-        title: "Advanced Web Development Bootcamp Certificate",
+        title: "Microsoft Azure (AZ-900) Preparation",
+        description: "",
+        company: "Microsoft Azure"
+    },
+    {
+        title: "AI Fundamentals Certificate",
+        description: ""
+    },
+    {
+        title: "Python Associate Certificate",
+        description: "",
+        company: "Python Institute"
+    },
+    {
+        title: "DigiEduHack Mentor Certificate",
+        description: "",
+        company: "DigiEduHack",
+        date: "Dec 2023"
+    },
+    {
+        title: "Coders Advanced Web Certificate",
         description: "",
         company: "Coders Academy",
         date: "Nov 2023"
     },
     {
-        title: "Web Marketing Certificate",
+        title: "ICPC Eurasia Semi-Finalist",
         description: "",
-        company: "edX",
-        date: "Feb 2024"
+        company: "ICPC (International Collegiate Programming Contest)",
+        date: "2023"
     },
     {
         title: "Azerbaijan Informatics olympiad(RFO) 3rd Place",

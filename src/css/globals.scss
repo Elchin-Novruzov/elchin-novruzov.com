@@ -896,17 +896,6 @@ body.active {
     align-items: center;
     width: max-content;
     margin: 30px auto 0;
-
-    .aws-btn__content {
-      background: var(--color-3);
-      font-size: 20px;
-      color: var(--color-2);
-      padding: 0px 20px;
-    }
-
-    .aws-btn--primary .aws-btn__wrapper:before {
-      background: #8193e0;
-    }
   }
 
   .tabs-menu {

@@ -3,8 +3,6 @@ import React, { useState, useEffect, useMemo } from 'react';
 import Titles from '@/common/Titles';
 import PortfolioCard from './PortfolioCard';
 import { portfolio } from '../data/data';
-import { AwesomeButton } from 'react-awesome-button';
-import 'react-awesome-button/dist/styles.css';
 import Aos from 'aos';
 
 const Portfolio: React.FC = () => {
@@ -60,9 +58,9 @@ const Portfolio: React.FC = () => {
 
                 {visiblePortfolio < filteredPortfolio.length && (
                     <div className='button-load' onClick={loadMore}>
-                        <AwesomeButton type="primary">
+                        <button type="button" className="global-btn">
                             Load More
-                        </AwesomeButton>
+                        </button>
                     </div>
                 )}
             </div>

@@ -21,12 +21,14 @@ const About: React.FC = () => {
                 </div>
                 <div className="right">
                     <p>
-                        Dynamic Web Developer with a strong foundation in problem-solving, algorithms,
-                        and data structures. An Informatics, Programming, and Mathematics Olympian with a proven track record in bodybuilding,
-                        holding international and national titles. Committed to teamwork, success,
-                        and continuous personal and professional development. I have also ventured into entrepreneurship,
-                        attempting to create startups on several occasions, though not always successfully.
-                        These experiences have contributed to my dedication to innovation and growth.
+                        Technical Lead and founding engineer with 5+ years of experience delivering 10+ international
+                        projects across Czechia, Azerbaijan, Uzbekistan, Turkey, and Russia. I own architecture and
+                        technical strategy end-to-end, lead multi-team execution, and carry projects from idea to
+                        outcome — boosting engineering throughput by ~40% while maintaining 95%+ stakeholder satisfaction.
+                        Alongside engineering, I'm an Informatics, Programming, and Mathematics Olympian with a proven
+                        track record in bodybuilding, holding international and national titles. I've also ventured into
+                        entrepreneurship, building startups on several occasions, though not always successfully —
+                        experiences that keep fueling my drive for innovation and growth.
                     </p>
                     <ul>
                         <li>
@@ -40,7 +42,7 @@ const About: React.FC = () => {
                             </CountUp>
                         </li>
                         <li>
-                            <CountUp start={0} end={3} delay={0}>
+                            <CountUp start={0} end={5} delay={0}>
                                 {({ countUpRef }) => (
                                     <>
                                         <span className='count' ref={countUpRef} /> {`${'+'}`} <br />

@@ -12,7 +12,7 @@ const Footer = () => {
                                 Elchin Novruzov
                             </h4>
                             <p className="simple-footer">
-                                Web Developer
+                                Technical Lead · Founding Engineer
                             </p>
                         </div>
                         <div className="footer-list">

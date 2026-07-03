@@ -4,8 +4,6 @@ import Titles from '@/common/Titles'
 import React, { useEffect, useState, useMemo } from 'react'
 import { awardsHistory, activitiesHistory } from '../data/data'
 import Aos from 'aos';
-import { AwesomeButton } from 'react-awesome-button';
-import 'react-awesome-button/dist/styles.css';
 
 const Activities: React.FC = () => {
     const [visibleAwards, setVisibleAwards] = useState(5); // Adjust initial number as needed
@@ -41,21 +39,25 @@ const Activities: React.FC = () => {
                             <div key={idx} className="item">
                                 <span className='item-title'>{el.title}</span>
                                 <ul>
-                                    <li>
-                                        <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11 20H21V10C21 8.89543 20.1046 8 19 8H15M11 16H11.01M17 16H17.01M7 16H7.01M11 12H11.01M17 12H17.01M7 12H7.01M11 8H11.01M7 8H7.01M15 20V6C15 4.89543 14.1046 4 13 4H5C3.89543 4 3 4.89543 3 6V20H15Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        <span className="decs">{el.company}</span>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 11h2v2H7zm0 4h2v2H7zm4-4h2v2h-2zm0 4h2v2h-2zm4-4h2v2h-2zm0 4h2v2h-2z"></path><path d="M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM19 8l.001 12H5V8h14z"></path></svg>
-                                        <span className="decs date">{el.date}</span>
-                                    </li>
+                                    {el.company && (
+                                        <li>
+                                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M11 20H21V10C21 8.89543 20.1046 8 19 8H15M11 16H11.01M17 16H17.01M7 16H7.01M11 12H11.01M17 12H17.01M7 12H7.01M11 8H11.01M7 8H7.01M15 20V6C15 4.89543 14.1046 4 13 4H5C3.89543 4 3 4.89543 3 6V20H15Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <span className="decs">{el.company}</span>
+                                        </li>
+                                    )}
+                                    {el.date && (
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 11h2v2H7zm0 4h2v2H7zm4-4h2v2h-2zm0 4h2v2h-2zm4-4h2v2h-2zm0 4h2v2h-2z"></path><path d="M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM19 8l.001 12H5V8h14z"></path></svg>
+                                            <span className="decs date">{el.date}</span>
+                                        </li>
+                                    )}
                                 </ul>
                             </div>
                         ))
                     }
-                    
+
                 </div>
                 <div className="right">
                     <h4 className="title"> 
@@ -145,9 +147,9 @@ const Activities: React.FC = () => {
 			<div className="container">
 				{visibleAwards < awardsHistory.length && (
                          <div className='button-load'  onClick={loadMore}>
-                        <AwesomeButton type="primary ">
+                        <button type="button" className="global-btn">
                             Load More
-                        </AwesomeButton>
+                        </button>
                         </div>
 				)}
 			</div>
